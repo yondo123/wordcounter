@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+</head>
+
+<body>
+    <h1>당신이 입력한 텍스트의 개수는? <p>{{total}}</p>
+    </h1>
+    <div class="but">
+        <button>
+            <a href="{%url 'home'%}">돌아가기</a>
+        </button>
+    </div>
+
+    <br>
+
+    <div class="word">
+        <h2>텍스트</h2>
+        {{full}}
+    </div>
+    <br><br><br><br>
+    <div class="count">
+        <h2>단어 카운트</h2>
+        {% for word, howmany in dict %}
+        <ul>
+            <li><a>{{word}} : {{howmany}}</a></li>
+        </ul>
+        <br>
+        {%endfor%}
+    </div>
+
+</body>
+
+</html>

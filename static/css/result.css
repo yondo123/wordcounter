@@ -1,0 +1,67 @@
+body{
+    background-color: #FFFDEF;
+}
+h1{
+    color: #7A72B2;
+    text-align: center;
+}
+
+p{
+    color:red;
+    font-size: 30px;
+}
+
+a{
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    display : block;
+    color : #ffffff;
+}
+
+button{
+    vertical-align: text-bottom;
+	display : inline-block;
+	border: solid 3px;
+	border-radius: 6px;
+	background-color : #DBD6FF;
+	color : #FFFFFF;
+	font-size : 18px;
+	text-decoration: none;
+}
+
+.but{
+    text-align: center;
+}
+
+.word{
+    background-color:#B2AF95;
+    border: solid 1px;
+}
+
+.count{
+    background-color:#B2AF95;
+    border: solid 1px;
+}
+
+.word h2{
+    color:#FFFDEF;
+    text-align: center;
+}
+
+.count h2{
+    color:#FFFDEF;
+    text-align: center;
+}
+
+.count ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.count a{
+    display:block;
+    padding:5px;
+    color: black;
+}

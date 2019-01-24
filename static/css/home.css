@@ -1,0 +1,52 @@
+body{
+    background-color: #FFFDEF;
+}
+h1{
+    color: #7A72B2;
+    text-align: center;
+}
+
+a{
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    display : block;
+    color : #D2D2FF;
+}
+
+input{
+    vertical-align: text-bottom;
+	display : inline-block;
+	border: solid 3px;
+	border-radius: 6px;
+	background-color : #DBD6FF;
+	color : #FFFFFF;
+	font-size : 18px;
+	text-decoration: none;
+}
+
+textarea{
+    font-size: 20px;
+    width:100%;
+    height: 70%;
+}
+
+footer{
+    background-color: #B2AF95;
+    color:#FFFDEF;
+}
+
+.foot p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:25px;
+}
+footer a{
+    font-size:20px;
+    text-align: left;
+    color:#FFFDEF
+}
+
+footer .container{
+    padding: 40px 20px;
+}
